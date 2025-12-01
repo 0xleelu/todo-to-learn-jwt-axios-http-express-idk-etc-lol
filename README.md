@@ -5,3 +5,5 @@ i dont think theres any need to run this lol, but if you want to run this follow
 - and in the **root/parent directory** run `node app.js`
 
 the above instructions will let you run the todo application. happy todo-ing! :)
+
+and also dont forget to run `npm install` :) 
