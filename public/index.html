@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup">
+        <input
+          type="text"
+          name="Username"
+          id="signup-username"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          name="Password"
+          id="signup-password"
+          placeholder="Password"
+        />
+        <!-- <button type="button" id="signup-or-signin">
+          i already have an account
+        </button> -->
+        <button type="submit" id="signup">Sign me up</button>
+      </div>
+      <div class="signin">
+        <input
+          type="text"
+          name="Username"
+          id="signin-username"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          name="Password"
+          id="signin-password"
+          placeholder="Password"
+        />
+        <!-- <button type="button" id="signup-or-signin">Create an account</button> -->
+        <button type="submit" id="signin">Sign me in</button>
+      </div>
+      <div class="todos">
+        <input
+          type="text"
+          name="Todo"
+          id="new-todo"
+          placeholder="what do you want to conquer"
+        />
+        <button type="submit" id="todo-submit">Submit</button>
+        <div class="listOfTodos">
+          <p>here are your todos: </p>
+        </div>
+        <button type="button" id="logout">Log out!</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
